@@ -134,7 +134,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 		// Add id in card
 		cardsChosenId.push(cardId);
-		console.log(cardArray[cardId].name);
 
 		// Add img to the square based on the card id it hold
 		this.setAttribute('src', cardArray[cardId].img);
